@@ -1,0 +1,16 @@
+/* src/components/MessageList.css */
+.data-grid-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: visible; /* ✅ 드롭다운이 잘리지 않도록 설정 */
+}
+
+.unread-message {
+    background-color: #ffebee;
+}
+
+.read-message {
+    background-color: #ffffff;
+}

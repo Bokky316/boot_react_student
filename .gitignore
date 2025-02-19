@@ -1,0 +1,63 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### React ###
+/frontend_student/node_modules/
+/frontend_student/build/
+/frontend_student/.next/
+/frontend_student/.cache/
+/frontend_student/.parcel-cache/
+
+### Spring Boot (AWS 빌드 후 변경되는 파일) ###
+/backend_student/build/
+/backend_student/.gradle/
+/backend_student/*.jar
+/backend_student/*.war
+/backend_student/*.log
+/backend_student/*.pid
+
+### 환경 설정 파일 (보안 관련) ###
+/backend_student/application.properties
+/backend_student/application.yml
+/backend_student/.env
+/frontend_student/.env
+
+### AWS 배포 후 생성되는 로그 파일 ###
+*.log
+*.pid
+nohup.out
