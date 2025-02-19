@@ -3,7 +3,7 @@
 2. AWS에 앱을 배포하고 탄력적 ip를 할당받아서 프론트엔드와 백엔드를 연결해야 한다.
 - 백엔드는 8080 포트로 실행되고, 프론트엔드는 80 포트로 실행된다.
 3. 기존에 리액트에서 localhost로 사용하던 주소를 탄력적ip인 43.200.140.40:8080으로 변경해야 한다.
-- export const SERVER_URL = "http://43.200.140.40:8080/";
+- export const SERVER_URL = "http://13.238.47.20:8080/";
 4. application.properties에서 다음과 같이 하던 내용은 수정할 필요없음
 - spring.data.redis.host=localhost
 - 

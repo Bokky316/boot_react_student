@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * OpenAPI 설정 클래스(스웨거 설정) aws ip 적용
- * 테스트 URL : http://43.200.140.40/:8080/swagger-ui/index.html
+ * 테스트 URL : http://13.238.47.20/:8080/swagger-ui/index.html
  * OpenAPIConfig 클래스는 Spring Boot 애플리케이션에서 OpenAPI 및 Swagger 설정을
  * 담당하는 구성 클래스입니다. 이 클래스는 Springdoc OpenAPI 라이브러리를 사용하여
  * API 문서화 작업을 수행합니다. OpenAPI는 REST API의 명세를 작성하는 데 사용되며,
@@ -29,7 +29,7 @@ public class SwaggerConfig {
     /**
      * OpenAPI: Springdoc OpenAPI 라이브러리의 클래스로, OpenAPI 명세를 정의합니다.
      * 웹브라우저에서 스웨거 초기 화면을 확인할 수 있습니다.
-     * - http://43.200.140.40/:8080/swagger-ui/index.html
+     * - http://13.238.47.20/:8080/swagger-ui/index.html
      * @return OpenAPI 명세를 포함한 OpenAPI 객체
      */
     @Bean
@@ -40,7 +40,7 @@ public class SwaggerConfig {
                         .description("My application API documentation")    // API 명세의 설명
                         .version("v1.0")    // API 명세의 버전
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))   // API 명세의 라이선스 정보
-                .servers(List.of(new Server().url("http://43.200.140.40/:8080")))    // API를 호스팅하는 서버를 정의합니다.(이 경우 로컬 서버)
+                .servers(List.of(new Server().url("http://13.238.47.20/:8080")))    // API를 호스팅하는 서버를 정의합니다.(이 경우 로컬 서버)
                 .externalDocs(new ExternalDocumentation()
                         .description("My API Wiki Documentation")   // 외부 문서 설명
                         .url("https://myapi.wiki.github.org/docs"))    // 외부 문서 URL
